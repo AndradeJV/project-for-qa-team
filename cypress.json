@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+
+    "env": {
+        "fakerBookApi": "https://fakerestapi.azurewebsites.net/api/v1",
+        "bookStoreApi": "https://bookstore.toolsqa.com"
+    },
+
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    }
+}
