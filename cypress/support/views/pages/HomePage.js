@@ -4,17 +4,17 @@
 class HomePage {
     // Clicar no botão [ Login ]
     clickButtonLogin(){
-        cy.get('/login').click();
+        cy.get('#login-button').click();
     }
 
     // Escrever nome do usuário
-    writeUser(user) {
-        cy.get('').type(user);
+    writeUser(teste_usuarioQa) {
+        cy.get('#user-name').type(teste_usuarioQa);
     }
 
     // Escrever senha do usuário
     writePassword(password) {
-        cy.get('').type(password);
+        cy.get('#password').type(password);
     }
 }
 

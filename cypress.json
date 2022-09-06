@@ -1,7 +1,8 @@
 {
-    "baseUrl": "https://www.saucedemo.com/",
+    "baseUrl": "https://www.saucedemo.com",
     "viewportWidth": 1440,
     "viewportHeight": 900,
+    "chromeWebSecurity": false,
 
     "env": {
         "fakerBookApi": "https://fakerestapi.azurewebsites.net/api/v1",
